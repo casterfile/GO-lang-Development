@@ -1,3 +1,7 @@
+//Setting you Work space
+> set GOPATH=D:\GO-lang\GO-lang-Development
+//PathLocationYouPutItHere "D:\GO-lang\GO-lang-Development"
+
 //Run Go Implicitly 
 > go run FileName.go
 //This is a slow process when building the file
@@ -7,7 +11,13 @@
 //Go build does not create  a bin directory by default
 
 //GO Install
-go install FileName.go
+> go install code.1.1
+
+//Code Formating using Go
+> go fmt FileName.go
+
+//Tesing in Go
+> go test FileName
 
 
 
