@@ -9,6 +9,8 @@
 //Build GO File
 > go build -o bin/code.1.1.exe src/code.1.1/code.1.1.go
 //Go build does not create  a bin directory by default
+//Run the .exe after build
+> ./filename.exe
 
 //GO Install
 > go install code.1.1
@@ -19,5 +21,7 @@
 //Tesing in Go
 > go test FileName
 
+//Generate a documentation
+> godoc FolderName
 
 
