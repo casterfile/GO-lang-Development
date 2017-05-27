@@ -1,0 +1,13 @@
+//Run Go Implicitly 
+> go run FileName.go
+//This is a slow process when building the file
+
+//Build GO File
+> go build -o bin/code.1.1.exe src/code.1.1/code.1.1.go
+//Go build does not create  a bin directory by default
+
+//GO Install
+go install FileName.go
+
+
+
